@@ -27,7 +27,7 @@ version           "2.4.13"
 recipe            "riak", "Installs Riak from a package"
 recipe            "riak::source", "Installs Erlang and Riak from source"
 
-depends "apt", "~> 2.3.8"
+depends "apt", "~> 2.4.0"
 depends "build-essential", "~> 2.0.2"
 depends "erlang", "~> 1.5.0"
 depends "git", "~> 3.0"
